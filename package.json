@@ -1,0 +1,32 @@
+{
+    "name": "spartanmartserver",
+    "version": "1.0.0",
+    "description": "Spartan Mart Server",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "node ./node_modules/mocha/bin/mocha"
+    },
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "body-parser": "^1.15.2",
+        "express": "^4.14.0",
+        "firebase-admin": "^4.0.1",
+        "jsonwebtoken": "^5.4.0",
+        "npm": "*",
+        "passport": "*",
+        "passport-local": "*",
+        "promise": "^7.1.1"
+    },
+    "engines": {
+        "node": "^6.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://huangd95@bitbucket.org/huangd95/spartanmartserver.git"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.1.2"
+    }
+}
