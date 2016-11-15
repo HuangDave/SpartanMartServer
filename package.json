@@ -1,32 +1,41 @@
 {
-    "name": "spartanmartserver",
-    "version": "1.0.0",
-    "description": "Spartan Mart Server",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js",
-        "test": "node ./node_modules/mocha/bin/mocha"
-    },
-    "dependencies": {
-        "bcrypt-nodejs": "0.0.3",
-        "body-parser": "^1.15.2",
-        "express": "^4.14.0",
-        "firebase-admin": "^4.0.1",
-        "jsonwebtoken": "^5.4.0",
-        "npm": "*",
-        "passport": "*",
-        "passport-local": "*",
-        "promise": "^7.1.1"
-    },
-    "engines": {
-        "node": "^6.2.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://huangd95@bitbucket.org/huangd95/spartanmartserver.git"
-    },
-    "devDependencies": {
-        "chai": "^3.5.0",
-        "mocha": "^3.1.2"
-    }
+  "name": "spartanmartserver",
+  "description": "Spartan Mart Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^0.6.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "firebase": "^3.6.4",
+    "firebase-admin": "^4.0.1",
+    "jsonwebtoken": "^5.4.0",
+    "multer": "*",
+    "multer-gcs": "^1.0.2",
+    "nodemailer": "^0.7.1",
+    "npm": "*",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "promise": "^7.1.1",
+    "stripe": "^4.12.0",
+    "xmlhttprequest": "^1.8.0",
+    "xoauth2": "^1.2.0"
+  },
+  "engines": {
+    "node": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://huangd95@bitbucket.org/huangd95/spartanmartserver.git"
+  },
+  "devDependencies": {
+    "supertest": "^2.0.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
 }
